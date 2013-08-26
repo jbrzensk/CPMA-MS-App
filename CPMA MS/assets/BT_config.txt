@@ -1,0 +1,2759 @@
+{
+    "BT_appConfig": {
+        "BT_items": [
+            {
+                "itemId": "JA00F196A702B8EA4A5C232D0",
+                "itemType": "BT_app",
+                "buzztouchAppId": "",
+                "buzztouchAPIKey": "",
+                "dataURL": "https://www.buzztouch.com/api/app/?command=getAppData&appGuid=&apiKey=&apiSecret=",
+                "reportToCloudURL": "https://www.buzztouch.com/api/app/?command=reportToCloud&appGuid=&apiKey=&apiSecret=&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]",
+                "registerForPushURL": "https://www.buzztouch.com/api/app/?command=registerForPush&appGuid=&apiKey=&apiSecret=&deviceId=[deviceId]&deviceLatitude=[deviceLatitude]&deviceLongitude=[deviceLongitude]&deviceModel=[deviceModel]&userId=[userId]",
+                "lastModified": "Mon, 26 Aug 2013 02:29:14 -0700",
+                "lastPublished": "Mon, 26 Aug 2013 02:29:14 -0700",
+                "name": "CPMA Android",
+                "version": "1.0",
+                "currentMode": "Live",
+                "startLocationUpdates": "1",
+                "promptForPushNotifications": "1",
+                "allowRotation": "largeDevicesOnly",
+                "BT_themes": [
+                    {
+                        "itemId": "940654F13A801C4BA0F827F",
+                        "itemType": "BT_theme",
+                        "itemNickname": "Default Theme",
+                        "splashScreenItemId": "1EF894E2486EE8F42F79179",
+                        "navBarBackgroundColor": "#003399",
+                        "navBarStyle": "solid",
+                        "statusBarStyle": "hidden",
+                        "backgroundColor": "#000A70",
+                        "backgroundImageNameSmallDevice": "cpma_480x480.png",
+                        "backgroundImageNameLargeDevice": "cpma_1050x1050.png",
+                        "backgroundImageScale": "fullScreen"
+                    }
+                ],
+                "BT_tabs": [],
+                "BT_screens": [
+                    {
+                        "itemId": "51B042BA05F597F10BEDF05",
+                        "itemType": "BT_screen_menuButtons",
+                        "itemNickname": "Main Menu",
+                        "navBarTitleText": "CPMA Middle School",
+                        "navBarStyle": "solid",
+                        "buttonLayoutStyle": "grid",
+                        "buttonLabelLayoutStyle": "below",
+                        "buttonLabelFontColor": "#FFFFFF",
+                        "buttonSizeSmallDevice": "120",
+                        "buttonPaddingSmallDevice": "40",
+                        "buttonCornerRadiusSmallDevice": "20",
+                        "buttonLabelFontSizeSmallDevice": "12",
+                        "buttonSizeLargeDevice": "200",
+                        "buttonPaddingLargeDevice": "42",
+                        "buttonCornerRadiusLargeDevice": "40",
+                        "buttonLabelFontSizeLargeDevice": "24",
+                        "hideFromSearch": "1",
+                        "childItems": [
+                            {
+                                "itemId": "38D925FBD1877CE8E717C39",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "A744ADBEEC7BEA7BF78D3B7",
+                                "titleText": "Teachers",
+                                "imageNameSmallDevice": "teacher.png",
+                                "imageNameLargeDevice": "teacher_ipad.png"
+                            },
+                            {
+                                "itemId": "0A95F18827970D1A49FD533",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "B548EA3DC0CAD57EBBB72EA",
+                                "titleText": "Office Staff",
+                                "imageNameSmallDevice": "office.png",
+                                "imageNameLargeDevice": "office_ipad.png"
+                            },
+                            {
+                                "itemId": "E558FDA3CA27715A536D5DE",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "9AF0C36F490AADA4658F5D5",
+                                "titleText": "Yearbook Order",
+                                "imageURLSmallDevice": "https://sites.google.com/site/jbrzensk/yearbook.png",
+                                "imageURLLargeDevice": "https://sites.google.com/site/jbrzensk/yearbook_iPad.png"
+                            },
+                            {
+                                "itemId": "69CF12D38A0DB919375FB0E",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "4C880BB303D101FF0357AA4",
+                                "titleText": "Guidelines",
+                                "imageNameSmallDevice": "guide.png",
+                                "imageNameLargeDevice": "guide_ipad.png"
+                            },
+                            {
+                                "itemId": "5E4AD38A3976AE860CAFCCC",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "9CE0ED90664462BB3801235",
+                                "titleText": "Calendar",
+                                "imageNameSmallDevice": "calendarpic.png",
+                                "imageNameLargeDevice": "calendarpic_ipad.png"
+                            },
+                            {
+                                "itemId": "285C5732FF5F40CC552CF35",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "17B73D6429849B24989CD19",
+                                "titleText": "Parent/Student Login",
+                                "imageNameSmallDevice": "powerschool.png",
+                                "imageNameLargeDevice": "powerschool_ipad.png"
+                            },
+                            {
+                                "itemId": "F5CC8EAF5C9D270DB9CABF6",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "4112835AB0E0A726EF7778D",
+                                "titleText": "Map",
+                                "imageNameSmallDevice": "mappic.png",
+                                "imageNameLargeDevice": "mappic_ipad.png"
+                            },
+                            {
+                                "itemId": "7A04396A855C308B09654AF",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "19E2E48D161456DE3F5D814",
+                                "titleText": "District News",
+                                "imageNameSmallDevice": "district.png",
+                                "imageNameLargeDevice": "district_ipad.png"
+                            },
+                            {
+                                "itemId": "46557027F560CA6BB226A3B",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "66E92860E1C483F579D67DA",
+                                "titleText": "Main Site",
+                                "imageNameSmallDevice": "website.png",
+                                "imageNameLargeDevice": "website_ipad.png"
+                            },
+                            {
+                                "itemId": "1F4CD593F9B0117503B081A",
+                                "itemType": "BT_buttonItem",
+                                "loadScreenWithItemId": "9E89BDA07AC29F2176499F4",
+                                "titleText": "Help",
+                                "imageNameSmallDevice": "help.png",
+                                "imageNameLargeDevice": "help_ipad.png"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "1EF894E2486EE8F42F79179",
+                        "itemType": "BT_screen_splash",
+                        "itemNickname": "SplashScreen",
+                        "startTransitionAfterSeconds": "3",
+                        "transitionDurationSeconds": "1",
+                        "transitionType": "fade",
+                        "backgroundColor": "#141466",
+                        "backgroundImageNameSmallDevice": "splash_320x480.png",
+                        "backgroundImageNameLargeDevice": "splash_720x1040.png",
+                        "backgroundImageScale": "center"
+                    },
+                    {
+                        "itemId": "17B73D6429849B24989CD19",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "powerschool",
+                        "navBarTitleText": "Powerschool Login",
+                        "dataURL": "http://powerschool.sandi.net/public/",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "4112835AB0E0A726EF7778D",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "mapurl",
+                        "navBarTitleText": "Map to CPMA",
+                        "dataURL": "http://mrbrzenskimath.com/CPMA/map.html",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "C610AA0F2AACC6A2DAFCFE6",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "LawsonWebsiteCreative",
+                        "navBarTitleText": "Creative Writing",
+                        "dataURL": "http://room413cw.weebly.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "B548EA3DC0CAD57EBBB72EA",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "OfficeStaff",
+                        "navBarTitleText": "Main Office",
+                        "listBackgroundColor": "#FFFFFF",
+                        "listRowBackgroundColor": "#FFFFFF",
+                        "listTitleFontColor": "#000000",
+                        "listStyle": "round",
+                        "preventAllScrolling": "0",
+                        "listRowSeparatorColor": "#3300FF",
+                        "backgroundColor": "#000A70",
+                        "backgroundImageNameSmallDevice": "cpma_480x480.png",
+                        "backgroundImageNameLargeDevice": "cpma_1050x1050.png",
+                        "backgroundImageScale": "center",
+                        "childItems": [
+                            {
+                                "itemId": "796CD5243A9F767724A67DD",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F3C7D43BD14E0A386BB1E4F",
+                                "titleText": "Attendance Office",
+                                "rowAccessoryType": "details"
+                            },
+                            {
+                                "itemId": "F77B54D1F5F75CCBF90885D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B4A2E3A54E0842876416EBF",
+                                "titleText": "Counseling Office",
+                                "rowAccessoryType": "details"
+                            },
+                            {
+                                "itemId": "3C8C957497836DE4AAC5DDB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D68104FCD639A1EC007FAED",
+                                "titleText": "Finance Office",
+                                "rowAccessoryType": "details"
+                            },
+                            {
+                                "itemId": "36A4478CC7603D34D0171D2",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0ED207A32E3E9167CC9D0EE",
+                                "titleText": "Library",
+                                "rowAccessoryType": "details"
+                            },
+                            {
+                                "itemId": "1A56D5CD20F1A1ACAFBE079",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "2C4109E68529917114F39DF",
+                                "titleText": "Nursing Office",
+                                "rowAccessoryType": "details"
+                            },
+                            {
+                                "itemId": "C6F3F62479E6069F2AB33DE",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "BF30C7D637BB19B2597D6BA",
+                                "titleText": "Principal Scott Thomason"
+                            },
+                            {
+                                "itemId": "095CB01A14879DC22A7AA68",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E1C25622F74D7B6E24F47DE",
+                                "titleText": "Vice Principal Lemmon"
+                            },
+                            {
+                                "itemId": "9251C99DB3E0ECD1F5BD657",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A46FEC109A5DA9AAFF9E613",
+                                "titleText": "Vice Principal TBD"
+                            },
+                            {
+                                "itemId": "10F74F3DB9714A856165652",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "67875277DCC2D8DF2210A4A",
+                                "titleText": "Secretary Marlene Nolan"
+                            },
+                            {
+                                "itemId": "A5CE898486CA40394640A12",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "45AAE7E65FDBB9EFC7C7A0B",
+                                "titleText": "Magnet Coord. Lynn Spafford",
+                                "rowAccessoryType": "details"
+                            },
+                            {
+                                "itemId": "B9E1D1B3C39CEFBDF32D599",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A14F8934C2B2FD224A4E765",
+                                "titleText": "BSS Rick Nerling"
+                            },
+                            {
+                                "itemId": "7BDF0511A31CDB6E8AE522D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "4C880BB303D101FF0357AA4",
+                                "titleText": "School Policies"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "32C601E2D3ABCA1A54D7E8D",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "CeledonList",
+                        "navBarTitleText": "Mrs. Celedon",
+                        "childItems": [
+                            {
+                                "itemId": "19EB86C35970A270017676A",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D4E2352FD1394BAEB03254B",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "4F70D398884AA6701DCF4D4",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "4332746A21C172D56335F3D",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "070A122A9FB317F6843FE95",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "AbsencePolicy",
+                        "navBarTitleText": "Absence Policy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_070A122A9FB317F6843FE95.html"
+                    },
+                    {
+                        "itemId": "2825083157B7D7545209BB6",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "AfterSchool",
+                        "navBarTitleText": "After School Policy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_2825083157B7D7545209BB6.html"
+                    },
+                    {
+                        "itemId": "DECF8757125AD5D09308BBC",
+                        "itemType": "BT_screen_blank",
+                        "itemNickname": "Splash Screen",
+                        "navBarStyle": "hidden",
+                        "backgroundColor": "#0033FF",
+                        "backgroundImageNameSmallDevice": "Splash_320x480.png",
+                        "backgroundImageNameLargeDevice": "Splash_720x1024-1.png",
+                        "backgroundImageScale": "center"
+                    },
+                    {
+                        "itemId": "F3C7D43BD14E0A386BB1E4F",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "AttendanceOffice",
+                        "navBarTitleText": "AttendanceOffice",
+                        "childItems": [
+                            {
+                                "itemId": "06F9020D76BAE61D7186291",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "070A122A9FB317F6843FE95",
+                                "titleText": "Absence Policy"
+                            },
+                            {
+                                "itemId": "FA1B577F945C03D31D0CBFB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "2825083157B7D7545209BB6",
+                                "titleText": "After School Policy"
+                            },
+                            {
+                                "itemId": "7BA3C0B49BA4FBB1AEC87C5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0BCBFBC4A1ED145580C9939",
+                                "titleText": "Bell Schedule"
+                            },
+                            {
+                                "itemId": "06CD86A58D62F9D6E621E14",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "9661648136168B2F577162E",
+                                "titleText": "Tardy Policy"
+                            },
+                            {
+                                "itemId": "AE0C0BC2E47E728CEA881AC",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "60045827D6A8368AD33EDF8",
+                                "titleText": "Attendance Clerk Francisca Martinez"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "B4A2E3A54E0842876416EBF",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "CounselingOffice",
+                        "navBarTitleText": "CounselingOffice",
+                        "childItems": [
+                            {
+                                "itemId": "EA4C186EA8A7AA8DFA6ED63",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3AFE4E08805E99A1B9A94A9",
+                                "titleText": "Counseling Offerings"
+                            },
+                            {
+                                "itemId": "A2E4A873065147E225B8C0D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "4691C585BD087ABDB26E66A",
+                                "titleText": "Miller, Karen"
+                            },
+                            {
+                                "itemId": "A0AEDDC62A58D8825542CEB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "023860D4893074E26A9604C",
+                                "titleText": "Rubin, Aaron"
+                            },
+                            {
+                                "itemId": "913344AB3EE81737C04E96F",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "7141FA2356585CC7DBA8F36",
+                                "titleText": "Wehage, Cherie"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "D68104FCD639A1EC007FAED",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "FinanceOffice",
+                        "navBarTitleText": "FinanceOffice",
+                        "childItems": [
+                            {
+                                "itemId": "D6B29ECE8A1CCA05D2A2CB8",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F4B0F1309468FD52F0129A8",
+                                "titleText": "PE - Dance Uniform"
+                            },
+                            {
+                                "itemId": "382B5D0CFE3DC406C62D12C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CAD570856113058D0B5F9C9",
+                                "titleText": "Lowery, Margeret - Finance Clerk"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "0ED207A32E3E9167CC9D0EE",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Library",
+                        "navBarTitleText": "Library",
+                        "childItems": [
+                            {
+                                "itemId": "26E0EE0978DFD065F6CD4DA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3AEA9E5CB37E282416278E5",
+                                "titleText": "Textbooks"
+                            },
+                            {
+                                "itemId": "736B66A4D036DB2A66A2406",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "C5C5D30967D7BE62D71A9D5",
+                                "titleText": "Librarian Email"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "2C4109E68529917114F39DF",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "NursingOffice",
+                        "navBarTitleText": "Nursing Office",
+                        "childItems": [
+                            {
+                                "itemId": "66B0C1DC9FDD7647D1E55AF",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "64007AE8E1910A2E89CFF41",
+                                "titleText": "Nursie Services"
+                            },
+                            {
+                                "itemId": "F7A87BDE436FDA17CABFFF9",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CE61629581FCBB7043A5913",
+                                "titleText": "School Nurse - Leslie Yellen"
+                            },
+                            {
+                                "itemId": "B49B6D862B8EF21C0385B66",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3095EDE343A2E063B4E5304",
+                                "titleText": "Sebens, Amy"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "BB7D556D42438DA45130BEA",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "DeanOfStudents",
+                        "navBarTitleText": "DeanOfStudents",
+                        "childItems": []
+                    },
+                    {
+                        "itemId": "D2EACE31EBF1B6FFA977800",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Thomason",
+                        "navBarTitleText": "Thomason",
+                        "childItems": []
+                    },
+                    {
+                        "itemId": "BF30C7D637BB19B2597D6BA",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "ThomasonEmail",
+                        "emailToAddress": "sthomason@sandi.net",
+                        "emailSubject": "Question from the app"
+                    },
+                    {
+                        "itemId": "F641BB1A4A7960D70039E54",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Lemmon",
+                        "navBarTitleText": "Lemmon",
+                        "childItems": []
+                    },
+                    {
+                        "itemId": "8C916A17BC26C06B00CCE4D",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Nerling, Rick",
+                        "navBarTitleText": "Nerling, Rick",
+                        "childItems": []
+                    },
+                    {
+                        "itemId": "E1C25622F74D7B6E24F47DE",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "vpemail",
+                        "emailToAddress": "blemmon@sandi.net",
+                        "emailSubject": "Vice principal question from the app"
+                    },
+                    {
+                        "itemId": "A46FEC109A5DA9AAFF9E613",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "DeanEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "67875277DCC2D8DF2210A4A",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "NolanEmail",
+                        "emailToAddress": "mnolan1@sandi.net",
+                        "emailSubject": "Question from app"
+                    },
+                    {
+                        "itemId": "45AAE7E65FDBB9EFC7C7A0B",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Spafford",
+                        "navBarTitleText": "Magnet Office",
+                        "childItems": [
+                            {
+                                "itemId": "BC84A0AA894D23C8026A86A",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "614C7F988D818255B5AED83",
+                                "titleText": "Bus Policy"
+                            },
+                            {
+                                "itemId": "FAF3F9A3F7A6CAE71A18363",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "42C47CB930679662B8D6363",
+                                "titleText": "Email Lynn Spafford"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "A14F8934C2B2FD224A4E765",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "NerlingEmail",
+                        "emailToAddress": "rnerling@sandi.net",
+                        "emailSubject": "Question from app"
+                    },
+                    {
+                        "itemId": "A744ADBEEC7BEA7BF78D3B7",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Teachers",
+                        "navBarTitleText": "Teachers",
+                        "childItems": [
+                            {
+                                "itemId": "3E4321AD46D3C0782C1B200",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "1E228719EBDD8F8E142773C",
+                                "titleText": "D/HH Department"
+                            },
+                            {
+                                "itemId": "E95A4DC5CF8553E65863567",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "EFFF86929A28A7A854DB27E",
+                                "titleText": "Ed Spec - SEA-RSP"
+                            },
+                            {
+                                "itemId": "F3379B785BFB9115656EAAB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "DD0029A00E41E2AEA58CD87",
+                                "titleText": "English Department"
+                            },
+                            {
+                                "itemId": "53F32B7032CA0C44694FC32",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F56AED2939012973BBA464F",
+                                "titleText": "History Department"
+                            },
+                            {
+                                "itemId": "12492BE39103AA5CC50484E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D91497031C35573DA98BC38",
+                                "titleText": "Math Department"
+                            },
+                            {
+                                "itemId": "CFAB8975EDDB9DDBD90C2B0",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E0C8FC7AB009D63E12FE553",
+                                "titleText": "PE"
+                            },
+                            {
+                                "itemId": "5D567C294E5C6796F8C8257",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D86BC92DB5A57A80796CD82",
+                                "titleText": "Science Department"
+                            },
+                            {
+                                "itemId": "0C5A3AA35BD58897B3D2698",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "76A5789065C1832D5B669B5",
+                                "titleText": "Spanish"
+                            },
+                            {
+                                "itemId": "3757C9C9CF2B89FBDBC011E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "9BB4C7A7794DF30393A1DA8",
+                                "titleText": "VAPA - Media Arts"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "0BCBFBC4A1ED145580C9939",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "BellSchedule",
+                        "navBarTitleText": "Bell Schedule",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_0BCBFBC4A1ED145580C9939.html"
+                    },
+                    {
+                        "itemId": "9661648136168B2F577162E",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "TardyPolicy",
+                        "navBarTitleText": "Tardy Policy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_9661648136168B2F577162E.html"
+                    },
+                    {
+                        "itemId": "60045827D6A8368AD33EDF8",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "Martinez",
+                        "emailToAddress": "fmartinez@sandi.net",
+                        "emailSubject": "Attendance question from the app"
+                    },
+                    {
+                        "itemId": "3AFE4E08805E99A1B9A94A9",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "CounselingOffer",
+                        "navBarTitleText": "Counseling Office Services",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_3AFE4E08805E99A1B9A94A9.html"
+                    },
+                    {
+                        "itemId": "4691C585BD087ABDB26E66A",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "MillerEmail",
+                        "emailToAddress": "kmiller@sandi.net",
+                        "emailSubject": "Counseling question"
+                    },
+                    {
+                        "itemId": "023860D4893074E26A9604C",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "RubinEmail",
+                        "emailToAddress": "arubin@sandi.net",
+                        "emailSubject": "Counseling question"
+                    },
+                    {
+                        "itemId": "7141FA2356585CC7DBA8F36",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "WehageEmail",
+                        "emailToAddress": "cwehage@sandi.net",
+                        "emailSubject": "Counseling question"
+                    },
+                    {
+                        "itemId": "F4B0F1309468FD52F0129A8",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "PEDanceUniform",
+                        "navBarTitleText": "PE - Dance Uniform",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_F4B0F1309468FD52F0129A8.html"
+                    },
+                    {
+                        "itemId": "CAD570856113058D0B5F9C9",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LoweryEmail",
+                        "emailToAddress": "mlowery@sandi.net",
+                        "emailSubject": "Finance question"
+                    },
+                    {
+                        "itemId": "3AEA9E5CB37E282416278E5",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "Textbooks",
+                        "navBarTitleText": "Textbooks",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_3AEA9E5CB37E282416278E5.html"
+                    },
+                    {
+                        "itemId": "64007AE8E1910A2E89CFF41",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "NurseServices",
+                        "navBarTitleText": "Nurse Services",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_64007AE8E1910A2E89CFF41.html"
+                    },
+                    {
+                        "itemId": "C5C5D30967D7BE62D71A9D5",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LibraryEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "CE61629581FCBB7043A5913",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "YellenEmail",
+                        "emailToAddress": "lyellen@sandi.net",
+                        "emailSubject": "Nurse Office question"
+                    },
+                    {
+                        "itemId": "3095EDE343A2E063B4E5304",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SebensEmail",
+                        "emailToAddress": "asebens@sandi.net",
+                        "emailSubject": "Nurse Office question"
+                    },
+                    {
+                        "itemId": "9AF0C36F490AADA4658F5D5",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "YearbookOrder",
+                        "navBarTitleText": "YearbookOrder",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "4C880BB303D101FF0357AA4",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Guidelines",
+                        "navBarTitleText": "Guidelines",
+                        "childItems": [
+                            {
+                                "itemId": "2F74DCCE1DA7AFF24A542E5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "070A122A9FB317F6843FE95",
+                                "titleText": "Absence Policy"
+                            },
+                            {
+                                "itemId": "F85832873110EC4E737B6DC",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "2825083157B7D7545209BB6",
+                                "titleText": "After School Policy"
+                            },
+                            {
+                                "itemId": "86D6A7C120CF61960F6C410",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0BCBFBC4A1ED145580C9939",
+                                "titleText": "Bell Schedule"
+                            },
+                            {
+                                "itemId": "8CA0A1AD0A520492B6883CD",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "614C7F988D818255B5AED83",
+                                "titleText": "Bus Rules"
+                            },
+                            {
+                                "itemId": "F8320BD457BE0F5DDF55596",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3AFE4E08805E99A1B9A94A9",
+                                "titleText": "Counseling Department"
+                            },
+                            {
+                                "itemId": "1E762922982F6CABBB47E12",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A45C8636E476702153AEEB2",
+                                "titleText": "Discipline Policy"
+                            },
+                            {
+                                "itemId": "E482203E64EC46F805C2FCC",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "5343A4DCF0C78619F6A1C4D",
+                                "titleText": "Dress Code"
+                            },
+                            {
+                                "itemId": "1D0AFE397D2BA0B600E60E5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F7EF01BE53E9FC303AF11DF",
+                                "titleText": "Electronic Device Use"
+                            },
+                            {
+                                "itemId": "FBDA0FF11D6FD80FD531C9F",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "07ED8A2C703DC384A3F591F",
+                                "titleText": "Evening Performance Guidelines"
+                            },
+                            {
+                                "itemId": "A0E38F48D21744DB483E1EE",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "5F006EEE8BA5D7DE3D54E06",
+                                "titleText": "LOP List"
+                            },
+                            {
+                                "itemId": "BB8410104071F40B1193D66",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "64007AE8E1910A2E89CFF41",
+                                "titleText": "Nurse Services"
+                            },
+                            {
+                                "itemId": "6776DB381363E047CD3F364",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F4B0F1309468FD52F0129A8",
+                                "titleText": "PE-Dance Requirements"
+                            },
+                            {
+                                "itemId": "F47A58D426E3AFDED772402",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "9661648136168B2F577162E",
+                                "titleText": "Tardy Policy"
+                            },
+                            {
+                                "itemId": "92676D3E6B8101508704052",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3AEA9E5CB37E282416278E5",
+                                "titleText": "Textbooks"
+                            },
+                            {
+                                "itemId": "EFFE98607D493B1424CCA82",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "68CCDFAE8D32CBFBA50D15F",
+                                "titleText": "Zero Tolerance Policy"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "1A47ADBA6C4F1EC352DC532",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "Calendar",
+                        "navBarTitleText": "Calendar",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "FB26006965C05F3B40C88B8",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "StudentConnect",
+                        "navBarTitleText": "Student Connect",
+                        "dataURL": "https://zangle.sandi.net/studentconnect/",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "1A452E47112F29E06A70822",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "ParentConnect",
+                        "navBarTitleText": "Parent Connect",
+                        "dataURL": "https://zangle.sandi.net/parentconnect/",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "5CB1F4E947F8C88E550C6F4",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "DistrictNews",
+                        "navBarTitleText": "DistrictNews",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "D82450E0B7532A3038B24E3",
+                        "itemType": "BT_screen_map",
+                        "itemNickname": "Map",
+                        "navBarTitleText": "Map",
+                        "navBarBackgroundColor": "#3300FF",
+                        "showUserLocation": "1",
+                        "showUserLocationButton": "0",
+                        "defaultMapType": "standard",
+                        "singleLocationDefaultZoom": "17",
+                        "childItems": [
+                            {
+                                "itemId": "EEB563B56BA20567CAF407C",
+                                "itemType": "BT_mapLocation",
+                                "latitude": "32.836471",
+                                "longitude": "-117.182429",
+                                "title": "CPMA",
+                                "subTitle": "Main Office",
+                                "loadScreenWithItemId": "showDirections"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "66E92860E1C483F579D67DA",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "MainSite",
+                        "navBarTitleText": "MainSite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "9E89BDA07AC29F2176499F4",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "Help",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "614C7F988D818255B5AED83",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "BusPolicy",
+                        "navBarTitleText": "Bus Guidelines",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_614C7F988D818255B5AED83.html"
+                    },
+                    {
+                        "itemId": "42C47CB930679662B8D6363",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LSpaffordEmail",
+                        "emailToAddress": "lspafford@sandi.net",
+                        "emailSubject": "Question from the app"
+                    },
+                    {
+                        "itemId": "E0907A0505DD40D0414A37D",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "GahanWebsite",
+                        "navBarTitleText": "Gahan Website",
+                        "dataURL": "http://gahanroom305.wordpress.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "4F8C592386B4A34E9E52CC0",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "CollinsJimEmail",
+                        "emailToAddress": "pcollins1@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "1E228719EBDD8F8E142773C",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "DHH",
+                        "navBarTitleText": "Deaf and Hard of Hearing",
+                        "childItems": [
+                            {
+                                "itemId": "F2641DD0BFA2C5B8E392FEA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "5F5B9605F5D18D052477580",
+                                "titleText": "Channing, Kirsten"
+                            },
+                            {
+                                "itemId": "7D10AE766E326C1A7996EBF",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "76648BB752AD97FE4B40093",
+                                "titleText": "Domasco, Ronnie"
+                            },
+                            {
+                                "itemId": "20A1DBB2BD4783FCD2D862C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "BB7FADCD9D6C0EE2D356F7B",
+                                "titleText": "Glebocki, Anelia"
+                            },
+                            {
+                                "itemId": "A552D7156CF224C38B7F6D6",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "560090C599A01A9D2730CD5",
+                                "titleText": "Hare, Lisa"
+                            },
+                            {
+                                "itemId": "7FFDA6B061F8FC33AA4EF02",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D37EE01D5BAB2F2F8D19E66",
+                                "titleText": "Largoza, Jessica"
+                            },
+                            {
+                                "itemId": "327EEC5E41BF4D7426EA79D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "46730C1C4D3619AA8D2859D",
+                                "titleText": "Rabinowitz-Hoy, Wendy"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "EFFF86929A28A7A854DB27E",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "EdSpec",
+                        "navBarTitleText": "EdSpec",
+                        "childItems": [
+                            {
+                                "itemId": "05B4EA67E5AAF894FE8BB1C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "435F0CE1623A4B43E6C7167",
+                                "titleText": "Bailund, Michael"
+                            },
+                            {
+                                "itemId": "1DBD43080175B4955923354",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "57670715D66C44089D5D185",
+                                "titleText": "Blea, Patricia"
+                            },
+                            {
+                                "itemId": "F85E0389CAD857D2BCCDD9C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "24A444BC78EB5F1DB46992B",
+                                "titleText": "Chavez, Becky"
+                            },
+                            {
+                                "itemId": "BC08BE5CC9B07D165244FF5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "4F8C592386B4A34E9E52CC0",
+                                "titleText": "Collins, Peter"
+                            },
+                            {
+                                "itemId": "7DFC5C474772DB834869F94",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E5A4AC73AA3DD6AF07C72C7",
+                                "titleText": "Collins, Troy"
+                            },
+                            {
+                                "itemId": "85DADC1B8CA92B4C608A420",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "8E0BD69E5698B4A5249D42D",
+                                "titleText": "Crick, Jennifer"
+                            },
+                            {
+                                "itemId": "1DBE01CCEB1E07112FCB350",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "2D57C80C826C3151A93AA01",
+                                "titleText": "Fregoso, Juan"
+                            },
+                            {
+                                "itemId": "94412954F93C7250C875CDC",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D5975D29B330DBA52403085",
+                                "titleText": "Garcia, Armando"
+                            },
+                            {
+                                "itemId": "0DB4DB46E1B90AE92384D70",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CB309306729F27AF4F08CF0",
+                                "titleText": "Jezycki, Charles"
+                            },
+                            {
+                                "itemId": "F3E18F67D86CC158B04B5B1",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F5E56B3003650BE11997AED",
+                                "titleText": "Kerr-Madyun, Michelle"
+                            },
+                            {
+                                "itemId": "D0B00104E52CB044CD43B79",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "718DC30DBA2327A1C6B0F2A",
+                                "titleText": "Kincaid, Simone"
+                            },
+                            {
+                                "itemId": "F0FAB6C92EA5725646F0493",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "1828E0992ED71AA95B3B124",
+                                "titleText": "Kitnoja, Karen"
+                            },
+                            {
+                                "itemId": "546047C7B4DF00B9B2938BE",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "4D1F536CFFED3D4EBA50901",
+                                "titleText": "Lubke, Deb"
+                            },
+                            {
+                                "itemId": "E38BC3B692CF3DBA8058EAD",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "75C8F4A6C8805831DC50BEF",
+                                "titleText": "Lynch, Justine"
+                            },
+                            {
+                                "itemId": "6EFC902106D0485CF0F9FBB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "1423BA9904AB84A52E8E570",
+                                "titleText": "Mendoza-Shutz, Yolanda"
+                            },
+                            {
+                                "itemId": "B042821B0011D8B99CAA3B9",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "705305521D87B4917913D0F",
+                                "titleText": "Naranjo, Stephanie"
+                            },
+                            {
+                                "itemId": "1D7F0D2A7292AF42209A19D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3D8E40DD458245C2CCB1EC9",
+                                "titleText": "Noonan, Stephanie"
+                            },
+                            {
+                                "itemId": "D55E09237D8E5AF751B1445",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A180ACFA0BE4E5EE55E0131",
+                                "titleText": "Saiz, Richard"
+                            },
+                            {
+                                "itemId": "8B08E1C8695C5EB5ACDCD22",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A11EBF7636AA6865D5B6009",
+                                "titleText": "Schroeder, Ruthann"
+                            },
+                            {
+                                "itemId": "C3D3AA26696FE5E6109FB5D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "2763B11922FA2A84301F306",
+                                "titleText": "Silver, June"
+                            },
+                            {
+                                "itemId": "A2B5F90176500EAAE3ABD6F",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6B71996E4D7C012EBDD858C",
+                                "titleText": "Slyvester, Katrina"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "DD0029A00E41E2AEA58CD87",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "English",
+                        "navBarTitleText": "English",
+                        "listBackgroundColor": "#CCFF00",
+                        "listRowBackgroundColor": "#CCFF00",
+                        "listTitleFontColor": "#000000",
+                        "listStyle": "round",
+                        "childItems": [
+                            {
+                                "itemId": "3503A5981CFEF26E9977B5C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6FEEBC5471D8BCB8200A3D3",
+                                "titleText": "Gahan, Kerry"
+                            },
+                            {
+                                "itemId": "A3D8F18F03388DBBE6E5DD5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "690619D53EDD98E16D8BBC7",
+                                "titleText": "Lawson, Cassie"
+                            },
+                            {
+                                "itemId": "7D16566D986DE4ADDCE043E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "DB1C559085931674AFF45F0",
+                                "titleText": "Lindsey, Greg"
+                            },
+                            {
+                                "itemId": "7CE277525A719680AF24E41",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "34938C09E20E84F4F0012E7",
+                                "titleText": "Robinson-Hunt, Lauren"
+                            },
+                            {
+                                "itemId": "AD61E2151F38928D0E0F1A6",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "809A750FDFB8F62A79D239F",
+                                "titleText": "Thomas, Colette"
+                            },
+                            {
+                                "itemId": "07D3EFE5B4A2ABF189441B0",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6C060CC7CED014D1A39B299",
+                                "titleText": "Van Orden, Claudia"
+                            },
+                            {
+                                "itemId": "B0547BDC20FAD1C2A0F7035",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "66A7AE4B469B3511D31D3ED",
+                                "titleText": "Wilkinson, Stephen"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "F56AED2939012973BBA464F",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "History",
+                        "navBarTitleText": "History",
+                        "childItems": [
+                            {
+                                "itemId": "C0BBD41A9AB07C3C965F9EC",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "7CDE9051249356B5806492B",
+                                "titleText": "Dyke, William"
+                            },
+                            {
+                                "itemId": "76EC8092DAC0B039EB20DC5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6FB5891041191F4C871C4AF",
+                                "titleText": "Gonzalez, Gil"
+                            },
+                            {
+                                "itemId": "BDFEE1C4EE1346F5457CD84",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CC1E4FF0704A3B3AB60029B",
+                                "titleText": "Hallberg, Mark"
+                            },
+                            {
+                                "itemId": "61E8FBFB60D6F8968699402",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A5482441F5FF9F3FF5B52AC",
+                                "titleText": "Hom, Karen"
+                            },
+                            {
+                                "itemId": "7E66E3CF5EAC0EB7AE14A7A",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CA029416DA69D0FF371F44A",
+                                "titleText": "Ingrum, Steve"
+                            },
+                            {
+                                "itemId": "D5DCD042AFD1EADF9A30F6C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "59120B1AA6BD1785CBBDA42",
+                                "titleText": "Rich, Tom"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "D91497031C35573DA98BC38",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Math",
+                        "navBarTitleText": "Math",
+                        "childItems": [
+                            {
+                                "itemId": "3AA1090F4ABDA06B59010AC",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "EF8F6793E027DE788249EEF",
+                                "titleText": "Anderson, Karen"
+                            },
+                            {
+                                "itemId": "35E34902FF59DD42C0DD1AF",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B5A6C3747DF4AE3BFA0E1B5",
+                                "titleText": "Brzenski, Jared"
+                            },
+                            {
+                                "itemId": "A4D160E650F22047761E364",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E4BF2D8C6D904AF1D841CDC",
+                                "titleText": "Kerrebrock, Marie"
+                            },
+                            {
+                                "itemId": "4F5461E7935CBECFD62C485",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "37F3CCAC57BA918F078EBFD",
+                                "titleText": "Quinn, Susan"
+                            },
+                            {
+                                "itemId": "22AFEB6D33119FE1C991F57",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "58341CD23D1088EB608CF89",
+                                "titleText": "Rogers, Denise"
+                            },
+                            {
+                                "itemId": "0DCF410ACDEA051EACF1CF0",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "047640F05AEF72DB1001D74",
+                                "titleText": "Tran, Cathy"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "E0C8FC7AB009D63E12FE553",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "PE",
+                        "navBarTitleText": "PE",
+                        "childItems": [
+                            {
+                                "itemId": "785D9A7F634C1D47DE1E177",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "AD51B19BBBC131E93DC5A4F",
+                                "titleText": "Otterman, Brian"
+                            },
+                            {
+                                "itemId": "BFAA5C115E8FDC9B164E5A9",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B7070C8800B54FA0098BF56",
+                                "titleText": "Warkentien, Karl"
+                            },
+                            {
+                                "itemId": "F38D2DD89381D0CD8EE8D81",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "723E1F6BA4B0213D483AFE3",
+                                "titleText": "Wilton, Jackie"
+                            },
+                            {
+                                "itemId": "676E5E0769A0563A07ECCDA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "15A4197D0DD9EDF0957901D",
+                                "titleText": "Finn, Tim"
+                            },
+                            {
+                                "itemId": "F0C2EFFBCA91B505FF8998A",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "8DC393DB80F2C621AEC67B1",
+                                "titleText": "Kastorff, Tom"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "D86BC92DB5A57A80796CD82",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Science",
+                        "navBarTitleText": "Science",
+                        "childItems": [
+                            {
+                                "itemId": "74E7DB6763C87700F09E3A5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6B6ACBE199CADBB080E9651",
+                                "titleText": "Brannen, Sindy"
+                            },
+                            {
+                                "itemId": "F666A37CC076425A2EBBF29",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "302C7CBCA04752106FD4A63",
+                                "titleText": "Crawford, Michael"
+                            },
+                            {
+                                "itemId": "85EFFBF3F861792E5210FEB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "89090891A54D8B5B91DAD49",
+                                "titleText": "Fikes, Chris"
+                            },
+                            {
+                                "itemId": "46B21501D92F7EB1BE1DB55",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6E1480BA4AFF420EAAF705C",
+                                "titleText": "Fleck, Richard"
+                            },
+                            {
+                                "itemId": "8CB143F7901698D1C798922",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0584286DCF313E1EDE66C18",
+                                "titleText": "Owens, Stephanie"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "76A5789065C1832D5B669B5",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "Spanish",
+                        "navBarTitleText": "Spanish",
+                        "childItems": [
+                            {
+                                "itemId": "D733955358EE9357F96B285",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "32C601E2D3ABCA1A54D7E8D",
+                                "titleText": "Celedon, Lupe"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "9BB4C7A7794DF30393A1DA8",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "VAPA",
+                        "navBarTitleText": "VAPA",
+                        "childItems": [
+                            {
+                                "itemId": "462C628787BFC213A8C67FD",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CB799B0BCA2D5D27A0E5AC6",
+                                "titleText": "Ciavarelli, Richard"
+                            },
+                            {
+                                "itemId": "F4B2F134577263B0EE20524",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "87ECF4CFFC0D87036986558",
+                                "titleText": "Dickman, Sara"
+                            },
+                            {
+                                "itemId": "E49F0D644727C02CA5594B9",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "85254EC8A8CDFB82512946D",
+                                "titleText": "Hickman, Cathy"
+                            },
+                            {
+                                "itemId": "52A66531C6AD5FC14AE581F",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "6F1770891B297C8FB070052",
+                                "titleText": "Peacock, Michelle"
+                            },
+                            {
+                                "itemId": "D864B93649C70EDD82AEE8D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "8820290F0101AA98398E503",
+                                "titleText": "Spafford, Sara"
+                            },
+                            {
+                                "itemId": "32E26CD75AD8340715B51BA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "C5A738E0CE60C1B458C29C8",
+                                "titleText": "Steiner, Stephanie"
+                            },
+                            {
+                                "itemId": "18CC057D675AA1D9C69612F",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B7070C8800B54FA0098BF56",
+                                "titleText": "Warkentien, Karl"
+                            },
+                            {
+                                "itemId": "53603EFB909FECA169A70DD",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "AFB8575A243C1B2ABAB3EC7",
+                                "titleText": "Warren, Kayla"
+                            },
+                            {
+                                "itemId": "8AE27F7B8CCB894C4138E51",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "AB9F008C8D74157BC323D8C",
+                                "titleText": "Adair, Ray"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "5F5B9605F5D18D052477580",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "ChanningEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "76648BB752AD97FE4B40093",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "DomascoEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "BB7FADCD9D6C0EE2D356F7B",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "GlebokiEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "560090C599A01A9D2730CD5",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "HareEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "D37EE01D5BAB2F2F8D19E66",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LargozaEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "46730C1C4D3619AA8D2859D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "RabinowitzEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "435F0CE1623A4B43E6C7167",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "BailundEmail",
+                        "emailToAddress": "mbailund@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "57670715D66C44089D5D185",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "BleaEmail",
+                        "emailToAddress": "pblea@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "24A444BC78EB5F1DB46992B",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "ChavezEmail",
+                        "emailToAddress": "bchavez@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "E5A4AC73AA3DD6AF07C72C7",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "CollinsTroyEmail",
+                        "emailToAddress": "tcollins1@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "8E0BD69E5698B4A5249D42D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "CrickEmail",
+                        "emailToAddress": "jcrick@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "2D57C80C826C3151A93AA01",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "FregosoEmail",
+                        "emailToAddress": "jfregoso@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "D5975D29B330DBA52403085",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "GarciaEmail",
+                        "emailToAddress": "agarcia6@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "CB309306729F27AF4F08CF0",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "JezyckiEmail",
+                        "emailToAddress": "cjezyxki@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "F5E56B3003650BE11997AED",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "KerrMadyunEmail",
+                        "emailToAddress": "mkerr@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "718DC30DBA2327A1C6B0F2A",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "KincaidEmail",
+                        "emailToAddress": "skincade@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "1828E0992ED71AA95B3B124",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "KitnojaEmail",
+                        "emailToAddress": "kkitnoja@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "4D1F536CFFED3D4EBA50901",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LubkeEmail",
+                        "emailToAddress": "dlubke@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "75C8F4A6C8805831DC50BEF",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LynchEmail",
+                        "emailToAddress": "jlynch@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "EA982D5F4B182A67C243264",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "MartinezJoseEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "1423BA9904AB84A52E8E570",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "MendozaShutzEmail",
+                        "emailToAddress": "ymendozashutz@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "705305521D87B4917913D0F",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "NaranjoEmail",
+                        "emailToAddress": "snaranjo@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "3D8E40DD458245C2CCB1EC9",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "NoonanEmail",
+                        "emailToAddress": "snoonan@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "A180ACFA0BE4E5EE55E0131",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SaizEmail",
+                        "emailToAddress": "rsaiz@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "A11EBF7636AA6865D5B6009",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SchroederEmail",
+                        "emailToAddress": "rschroeder@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "2763B11922FA2A84301F306",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SilverEmail",
+                        "emailToAddress": "jsilver1@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "6B71996E4D7C012EBDD858C",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SylvesterEmail",
+                        "emailToAddress": "ksylvester@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "6FEEBC5471D8BCB8200A3D3",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "GahanList",
+                        "navBarTitleText": "Mrs. Gahan",
+                        "childItems": [
+                            {
+                                "itemId": "B3AB5713BDB81E87FE0A058",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E0907A0505DD40D0414A37D",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "6F8BCA1F20C2CFC7CA13121",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0B36E4E73C097A9F2A22AD9",
+                                "titleText": "Email Mrs. Gahan"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "690619D53EDD98E16D8BBC7",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "LawsonList",
+                        "navBarTitleText": "Mrs. Lawson",
+                        "childItems": [
+                            {
+                                "itemId": "D1035AEB850FB63DA9998E3",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "C610AA0F2AACC6A2DAFCFE6",
+                                "titleText": "Creative Writing Website"
+                            },
+                            {
+                                "itemId": "296C2F0369F9AD956302725",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "FBF41B7DB41DD48ECDCBCB7",
+                                "titleText": "Email Mrs. Lawson"
+                            },
+                            {
+                                "itemId": "793926BA32FD33749291FFA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CA28112E525F8194C391ADF",
+                                "titleText": "English Class Website"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "DB1C559085931674AFF45F0",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "LindseyList",
+                        "navBarTitleText": "Mr. Lindsey",
+                        "childItems": [
+                            {
+                                "itemId": "0E21C8676872F36F113D70A",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D66775659BDDF7F487A0210",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "F8775A4C0E4D0BD5BB19403",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "FDFF9359FFC14810F966358",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "34938C09E20E84F4F0012E7",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "RobinsonList",
+                        "navBarTitleText": "Mrs. Robinson",
+                        "childItems": [
+                            {
+                                "itemId": "7813D89D696A812E2B086F9",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0F7FDB10F52FF0155714192",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "47F34F0D915A504AE3F03E0",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "685CADC370A3724458730E0",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "809A750FDFB8F62A79D239F",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "ThomasList",
+                        "navBarTitleText": "Mrs. Thomas",
+                        "childItems": [
+                            {
+                                "itemId": "D6BEC392F26D353C2F9AC31",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0F51DD0ADCA5D03D4BFDAFF",
+                                "titleText": "Class Wbesite"
+                            },
+                            {
+                                "itemId": "D4BE1BEA78713C8501E7ECB",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "21609502CE753580C11D6CE",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "6C060CC7CED014D1A39B299",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "VanOrdenList",
+                        "navBarTitleText": "Mrs. VanOrden",
+                        "childItems": [
+                            {
+                                "itemId": "6ADF2B3F30A5A13087C8D1E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B961B7DBA7800C8E6973468",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "2C8148E2CC28E272007756D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E1562CFE563EDFE274E938B",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "66A7AE4B469B3511D31D3ED",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "WilkinsonList",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "7CDE9051249356B5806492B",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "DykeList",
+                        "navBarTitleText": "Mr. Dyke",
+                        "childItems": [
+                            {
+                                "itemId": "289CDAD149A0AE0D3675CB0",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A86A4129922190DA4A3CA16",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "C22A9CD30E195CF143CA34F",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "2FE617F927D35AACBD60E0F",
+                                "titleText": "Yearbook Website"
+                            },
+                            {
+                                "itemId": "D77D04B03C37627B5BC4487",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "13EA4B30ABAD07C23AF8BB0",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "6FB5891041191F4C871C4AF",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "GonzalezList",
+                        "navBarTitleText": "Mr. Gonzalez",
+                        "childItems": [
+                            {
+                                "itemId": "9CF5F808E3C787E4D87AFF8",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A06021F246C791F183263F1",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "F3F1F18B998AAB9BE0ECEE4",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A4E00C7AF01769BBE0280AB",
+                                "titleText": "Email Me"
+                            },
+                            {
+                                "itemId": "AA4917E74D3B204214BF266",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "140709DA2846DF3CB10D596",
+                                "titleText": "Class Blog"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "CC1E4FF0704A3B3AB60029B",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "HallbergList",
+                        "navBarTitleText": "Mr. Hallberg",
+                        "childItems": [
+                            {
+                                "itemId": "5CF0DA24B6FF9642E76FA7B",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "8EBD889726F19F53B9A05CF",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "C9613FC554968F9CDEEE3F7",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "64177C63B7E49AAF6759572",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "A5482441F5FF9F3FF5B52AC",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "HomList",
+                        "navBarTitleText": "Dr. Hom",
+                        "childItems": [
+                            {
+                                "itemId": "6DB12D7CC308D37B8452B74",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "17BD11DB5F52827EB20BBA2",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "CB0E8CB899E4D83D913F5E7",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "C88F0729E86EE1D3579EAAB",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "CA029416DA69D0FF371F44A",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "IngrumList",
+                        "navBarTitleText": "Mr. Ingrum",
+                        "childItems": [
+                            {
+                                "itemId": "0B2E86E9D90FA53325A4D1D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "036915A405CA55C76B116B9",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "59DFBCF9E0AE497EC471340",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "058A894AABD55304344E540",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "59120B1AA6BD1785CBBDA42",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "RichList",
+                        "navBarTitleText": "Mr. Rich",
+                        "childItems": [
+                            {
+                                "itemId": "A0B77C2CA88200A875CBA7D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "1D4145BE58399210BCBF504",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "15771546B325C3F25FD1EEE",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D64BB0DEF9E51B1C493090E",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "B5A6C3747DF4AE3BFA0E1B5",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "BrzenskiList",
+                        "navBarTitleText": "Mr. Brzenski",
+                        "navBarBackgroundColor": "#0000CC",
+                        "navBarStyle": "solid",
+                        "childItems": [
+                            {
+                                "itemId": "46E01F55DBBDFA0BE45B429",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "C5F0917D6C2B2F9AFCF1DFD",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "9E29BCD625AA6DA77EA9C50",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F8B05B61682C5807D7D2523",
+                                "titleText": "Video Feed"
+                            },
+                            {
+                                "itemId": "A63A3AC7144A3D1A1D769AA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "82DEB2B4B97DC91DF6824BD",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "E4BF2D8C6D904AF1D841CDC",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "KerrebrockList",
+                        "navBarTitleText": "Mrs. Kerrebrock",
+                        "childItems": [
+                            {
+                                "itemId": "476E59B5E55AD306C4A4806",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3D3A93A23C4964CA33E5EE2",
+                                "titleText": "CLass Website"
+                            },
+                            {
+                                "itemId": "E2CED79B10F0AF9037EAAD2",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "1A9FA575DBCA697B97ED9C6",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "37F3CCAC57BA918F078EBFD",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "PhungList",
+                        "navBarTitleText": "Mrs. Quinn",
+                        "childItems": [
+                            {
+                                "itemId": "4A096F93F9654F0AE13813E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "28650A13A4302164A2ED6F5",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "030AD13C416E9F5F6E9E73E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "CF141D55064A7B2988B82FF",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "58341CD23D1088EB608CF89",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "RogersList",
+                        "navBarTitleText": "Mrs. Rogers",
+                        "childItems": [
+                            {
+                                "itemId": "D358225CA6F4DD0CE1AA0B8",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A03C04278858B540EAA115E",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "5653345E27CBAA5DCA81A92",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "985254D29902D662544AE8B",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "047640F05AEF72DB1001D74",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "TranList",
+                        "navBarTitleText": "Mrs. Tran",
+                        "childItems": [
+                            {
+                                "itemId": "F4CB0EBC9DE329C1DC6BD08",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "8E6258235292A2EC5C38FC6",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "C3A8D489925DD81EFB3FD44",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "88B650B03802ED3D7397B4D",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "EF8F6793E027DE788249EEF",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "AndersonList",
+                        "navBarTitleText": "Mrs. Anderson",
+                        "childItems": [
+                            {
+                                "itemId": "6A287B4FBB891B81CC0AE8A",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "06AD387F10DB298AE270E44",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "17105B99987DD8CA7134925",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0882BA8E19EFC2A865680B6",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "AD51B19BBBC131E93DC5A4F",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "OttermanEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "B7070C8800B54FA0098BF56",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "WarkentienEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "723E1F6BA4B0213D483AFE3",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "WiltonEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "6B6ACBE199CADBB080E9651",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "BrannenList",
+                        "navBarTitleText": "Mrs. Brannen",
+                        "childItems": [
+                            {
+                                "itemId": "6C5FA2D246ABC250D314C6C",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "C77F7D74685475B9B93DD28",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "AE8CC2AF6A2802A4074D9C7",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E335551762A2C324DF02154",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "302C7CBCA04752106FD4A63",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "CrawfordList",
+                        "navBarTitleText": "Mr. Crawford",
+                        "childItems": [
+                            {
+                                "itemId": "E3ACD35B9030DB25C6A3671",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "17B83FD45FCD82BBCBBB32D",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "3AEBD25BBB7AA49FD46F4B2",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "D3EC1157FEFE9DE7960C623",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "89090891A54D8B5B91DAD49",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "FikesList",
+                        "navBarTitleText": "Mrs. Fikes",
+                        "childItems": [
+                            {
+                                "itemId": "7A550E9EA1901336B148040",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "36B38788C63BE2BC871C245",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "7EBE91F639D264E0A3F7A64",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "09AA9AF4997118121452CC3",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "6E1480BA4AFF420EAAF705C",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "FleckList",
+                        "navBarTitleText": "Mr. Fleck",
+                        "childItems": [
+                            {
+                                "itemId": "DAB04C8542835257E58715E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B0B8ACABCBAA8A496A6FD93",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "D8E868A8E6927619AB2EFA5",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "3E7EE811411EF13EC56D337",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "0584286DCF313E1EDE66C18",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "OwensList",
+                        "navBarTitleText": "Mrs. Owens",
+                        "childItems": [
+                            {
+                                "itemId": "3F32116C4B7978F12F161B4",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B305B6FD3DB0969575B4BF4",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "3A4571CAAA4FE87B29AEE47",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "A5E5287CB2C1E5FE42C468F",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "D4E2352FD1394BAEB03254B",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "CeledonWebsite",
+                        "navBarTitleText": "Spanish Class Website",
+                        "dataURL": "http://cpmaspanish.wordpress.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "4332746A21C172D56335F3D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "CeledonEmail",
+                        "emailToAddress": "lceledon@sandi.net",
+                        "emailSubject": "Question from the app"
+                    },
+                    {
+                        "itemId": "C5A738E0CE60C1B458C29C8",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "SteinerList",
+                        "navBarTitleText": "Mrs. Steiner",
+                        "navBarBackgroundColor": "#330066",
+                        "childItems": [
+                            {
+                                "itemId": "D1D46FBBFEC107F4D5408C8",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "276D0A03910EE2EA790B931",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "CBA24E78D671FCD1F4C299D",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E2AD78954559E52FB02AAB5",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "CB799B0BCA2D5D27A0E5AC6",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "CiavarelliList",
+                        "navBarTitleText": "Mr. Ciavarelli",
+                        "childItems": [
+                            {
+                                "itemId": "921A71668FB514B2B817E15",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "753097DE1A6006926CE0FBB",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "87ECF4CFFC0D87036986558",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "DickmanList",
+                        "navBarTitleText": "Mrs. Dickman",
+                        "childItems": [
+                            {
+                                "itemId": "AC6B09F839B0166F70C3AA2",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "8160BB645B15C60F2B6C891",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "85254EC8A8CDFB82512946D",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "HickmanList",
+                        "navBarTitleText": "Mrs. Hickman",
+                        "childItems": [
+                            {
+                                "itemId": "D421FF0C42AB560F888C9A2",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "F9D19AED07E907976150BC1",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "6F1770891B297C8FB070052",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "PeacockList",
+                        "navBarTitleText": "Mrs. Peacock",
+                        "childItems": [
+                            {
+                                "itemId": "79B26B8B3A96AAB27A7F20E",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "B81C17A03EDAEF421E07210",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "8820290F0101AA98398E503",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "SpaffordList",
+                        "navBarTitleText": "Mrs. S. Spafford",
+                        "childItems": [
+                            {
+                                "itemId": "F2F82577ADC3850791261A7",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "DE78C8EA7750D8F7ED6DB79",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "AFB8575A243C1B2ABAB3EC7",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "WarernList",
+                        "navBarTitleText": "Mrs. Warren",
+                        "childItems": [
+                            {
+                                "itemId": "F58E3C662D8D21731469257",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "E80266DA3244D5AB552BC7D",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "64BA823DE989D62C08E5EAA",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "317E2943D3A994D731E372A",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "AB9F008C8D74157BC323D8C",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "AdairList",
+                        "navBarTitleText": "Mr. Adair",
+                        "childItems": [
+                            {
+                                "itemId": "69873A3E7AA34E785D758E7",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "961529A9F17222E6C928D80",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "035CC59F33488B8855DEF10",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "1D522E57F6DA73F96B19A4D",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "A45C8636E476702153AEEB2",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "DisciplinePolicy",
+                        "navBarTitleText": "DisciplinePolicy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_A45C8636E476702153AEEB2.html"
+                    },
+                    {
+                        "itemId": "5343A4DCF0C78619F6A1C4D",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "DressCode",
+                        "navBarTitleText": "DressCode",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_5343A4DCF0C78619F6A1C4D.html"
+                    },
+                    {
+                        "itemId": "F7EF01BE53E9FC303AF11DF",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "ElectronicPolicy",
+                        "navBarTitleText": "Electronic Use Policy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_F7EF01BE53E9FC303AF11DF.html"
+                    },
+                    {
+                        "itemId": "07ED8A2C703DC384A3F591F",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "EveningGuidelines",
+                        "navBarTitleText": "Evening Performances",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_07ED8A2C703DC384A3F591F.html"
+                    },
+                    {
+                        "itemId": "5F006EEE8BA5D7DE3D54E06",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "LopList",
+                        "navBarTitleText": "Lop List Policy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_5F006EEE8BA5D7DE3D54E06.html"
+                    },
+                    {
+                        "itemId": "68CCDFAE8D32CBFBA50D15F",
+                        "itemType": "BT_screen_customHTML",
+                        "itemNickname": "ZeroTolerance",
+                        "navBarTitleText": "Zero Tolerance Policy",
+                        "dataURL": "https://www.buzztouch.com/applications020113/JA00F196A702B8EA4A5C232D0/documents/customHTML_68CCDFAE8D32CBFBA50D15F.html"
+                    },
+                    {
+                        "itemId": "0B36E4E73C097A9F2A22AD9",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "GahanEmail",
+                        "emailToAddress": "kgahan@sandi.net",
+                        "emailSubject": "Question from app"
+                    },
+                    {
+                        "itemId": "FBF41B7DB41DD48ECDCBCB7",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LawsonEmail",
+                        "emailToAddress": "cchasen@sandi.net"
+                    },
+                    {
+                        "itemId": "CA28112E525F8194C391ADF",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "English Website",
+                        "navBarTitleText": "English Website",
+                        "dataURL": "http://room413.wordpress.com/feed/",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "D66775659BDDF7F487A0210",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "LindseyWebsite",
+                        "navBarTitleText": "I Dont Have A Website",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "FDFF9359FFC14810F966358",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "LindseyEmail",
+                        "emailToAddress": "glindsey@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "0F7FDB10F52FF0155714192",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "RobinsonWebsite",
+                        "navBarTitleText": "Mrs. Robinson-Hunt Wbesite",
+                        "dataURL": "http://mrshunt.wordpress.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "685CADC370A3724458730E0",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "RobinsonEmail",
+                        "emailToAddress": "lrobinson@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "0F51DD0ADCA5D03D4BFDAFF",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "ThomasWebsite",
+                        "navBarTitleText": "ThomasWebsite",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "21609502CE753580C11D6CE",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "ThomasEmail",
+                        "emailToAddress": "cthomas@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "B961B7DBA7800C8E6973468",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "VanOrderWebsite",
+                        "navBarTitleText": "VanOrderWebsite",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "A86A4129922190DA4A3CA16",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "DykeWebsite",
+                        "navBarTitleText": "Mr. Dyke Website",
+                        "dataURL": "http://mrdyke.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "E1562CFE563EDFE274E938B",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "VanOrdenEmail",
+                        "emailToAddress": "cvanorden@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "2FE617F927D35AACBD60E0F",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "YearbookWebsite",
+                        "navBarTitleText": "Yearbook - Order # To Come",
+                        "dataURL": "http://www.yearbookordercenter.com/",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "13EA4B30ABAD07C23AF8BB0",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "DykeEmail",
+                        "emailToAddress": "wdykeiii@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "A06021F246C791F183263F1",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "GonzalezWebsite",
+                        "navBarTitleText": "Mr. Gonzalez Website",
+                        "dataURL": "http://mrgonzalez.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "A4E00C7AF01769BBE0280AB",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "GonzalezEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "8EBD889726F19F53B9A05CF",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "HallbergWebsite",
+                        "navBarTitleText": "HallbergWebsite",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "64177C63B7E49AAF6759572",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "HallbergEmail",
+                        "emailToAddress": "mhallberg@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "17BD11DB5F52827EB20BBA2",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "HomWebsite",
+                        "navBarTitleText": "HomWebsite",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "C88F0729E86EE1D3579EAAB",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "HomEmail",
+                        "emailToAddress": "khom@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "036915A405CA55C76B116B9",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "IngrumWebsite",
+                        "navBarTitleText": "Ingrum Website",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "058A894AABD55304344E540",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "IngrumEmail",
+                        "emailToAddress": "singrum@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "1D4145BE58399210BCBF504",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "RichWebsite",
+                        "navBarTitleText": "Mr Rich Website",
+                        "dataURL": "http://www.sandi.net/site/Default.aspx?PageType=1&SiteID=4208&ChannelID=4213&DirectoryType=6",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "D64BB0DEF9E51B1C493090E",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "RichEmail",
+                        "emailToAddress": "trich@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "F8B05B61682C5807D7D2523",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "BrzenskiVideo",
+                        "navBarTitleText": "Mr. Brzenski Videos",
+                        "navBarBackgroundColor": "#0000CC",
+                        "dataURL": "http://www.youtube.com/user/mrbrzenski/videos",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "C5F0917D6C2B2F9AFCF1DFD",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "BrzenskiWebsite",
+                        "navBarTitleText": "Mr. Brzenski Website",
+                        "navBarBackgroundColor": "#0000CC",
+                        "dataURL": "http://mrbrzenskismathclass.blogspot.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "82DEB2B4B97DC91DF6824BD",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "BrzenskiEmail",
+                        "emailToAddress": "jbrzenski@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "09AA9AF4997118121452CC3",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "FikesEmail",
+                        "emailToAddress": "cfikes@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "06AD387F10DB298AE270E44",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "AndersonWebsite",
+                        "navBarTitleText": "AndersonWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "0882BA8E19EFC2A865680B6",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "AndersonEmail",
+                        "emailToAddress": "kanderson@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "3D3A93A23C4964CA33E5EE2",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "KerrebrockWebsite",
+                        "navBarTitleText": "KerrebrockWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "1A9FA575DBCA697B97ED9C6",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "KerrebrockEmail",
+                        "emailToAddress": "mkerrebrock@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "28650A13A4302164A2ED6F5",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "PhungWebsite",
+                        "navBarTitleText": "Mrs. Quinn Website",
+                        "dataURL": "https://sites.google.com/site/phungmath8/home",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "CF141D55064A7B2988B82FF",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "PhungEmail",
+                        "emailToAddress": "mphung@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "A03C04278858B540EAA115E",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "RodgersWebsite",
+                        "navBarTitleText": "RodgersWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "985254D29902D662544AE8B",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "RodgersEmail",
+                        "emailToAddress": "drogers@sandi.net",
+                        "emailSubject": "Questions"
+                    },
+                    {
+                        "itemId": "140709DA2846DF3CB10D596",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "GonalezBlog",
+                        "navBarTitleText": "Mr. Gonzalez Blog",
+                        "dataURL": "http://mrsocialstudies.blogspot.com/",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "36B38788C63BE2BC871C245",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "FikesWebsite",
+                        "navBarTitleText": "Mrs. Fikes Website",
+                        "dataURL": "http://teacherweb.com/CA/CPMA/mrsfikes/apt1.aspx",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "8E6258235292A2EC5C38FC6",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "TranWebsite",
+                        "navBarTitleText": "Mrs. Tran Website",
+                        "dataURL": "http://www.sandi.net/Domain/13815",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "88B650B03802ED3D7397B4D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "TranEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "C77F7D74685475B9B93DD28",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "BrannenWebsite",
+                        "navBarTitleText": "BrannenWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "E335551762A2C324DF02154",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "BrannenEmail",
+                        "emailToAddress": "syoo@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "17B83FD45FCD82BBCBBB32D",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "CrawfordWebsite",
+                        "navBarTitleText": "CrawfordWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "D3EC1157FEFE9DE7960C623",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "CrawfordEmail",
+                        "emailToAddress": "mcrawford1@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "A23BCCB9C4E4148D77798C3",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "Fikesmessup",
+                        "navBarTitleText": "Mrs. Fikes Email",
+                        "dataURL": "http://www.google.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "B0B8ACABCBAA8A496A6FD93",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "FleckWebsite",
+                        "navBarTitleText": "FleckWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "3E7EE811411EF13EC56D337",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "FleckEmail",
+                        "emailToAddress": "rfleck@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "B305B6FD3DB0969575B4BF4",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "OwensWebsite",
+                        "navBarTitleText": "OwensWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "A5E5287CB2C1E5FE42C468F",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "OwensEmail",
+                        "emailToAddress": "sowens@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "753097DE1A6006926CE0FBB",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "CiavarelliEmail",
+                        "emailToAddress": "rchiavarelli@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "8160BB645B15C60F2B6C891",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "DickmanEmail",
+                        "emailToAddress": "sdickman@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "F9D19AED07E907976150BC1",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "HickmanEmail",
+                        "emailToAddress": "chickman@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "B81C17A03EDAEF421E07210",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "PeacockEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "15A4197D0DD9EDF0957901D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "FinnEmail",
+                        "emailToAddress": "tfinn@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "5D0C59D7809150FEE166D41",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "KastorffWebsite",
+                        "navBarTitleText": "KastorffWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "DE78C8EA7750D8F7ED6DB79",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SpaffordEmail",
+                        "emailToAddress": "sspafford@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "8DC393DB80F2C621AEC67B1",
+                        "itemType": "BT_screen_menuListSimple",
+                        "itemNickname": "KastorffList",
+                        "navBarTitleText": "Mr. Kastorff",
+                        "childItems": [
+                            {
+                                "itemId": "6876DD8CEB42418D6CFB871",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "5D0C59D7809150FEE166D41",
+                                "titleText": "Class Website"
+                            },
+                            {
+                                "itemId": "5DF36BBB1C783B7EA89FDCF",
+                                "itemType": "BT_menuItem",
+                                "loadScreenWithItemId": "0095FFF92AE61E5E71E761D",
+                                "titleText": "Email Me"
+                            }
+                        ]
+                    },
+                    {
+                        "itemId": "0095FFF92AE61E5E71E761D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "KastorffEmail",
+                        "emailSubject": "question about your app...",
+                        "emailToAddress": "you@yourdomain.com"
+                    },
+                    {
+                        "itemId": "276D0A03910EE2EA790B931",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "SteinerWebsite",
+                        "navBarTitleText": "Mrs. Steiners Web",
+                        "dataURL": "http://www.stephaniesteiner.com",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "E2AD78954559E52FB02AAB5",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "SteinerEmail",
+                        "emailToAddress": "ssteiner@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "E80266DA3244D5AB552BC7D",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "WarrenWebsite",
+                        "navBarTitleText": "WarrenWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "317E2943D3A994D731E372A",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "WarrenEmail",
+                        "emailToAddress": "kwarren@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "961529A9F17222E6C928D80",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "AdairWebsite",
+                        "navBarTitleText": "AdairWebsite",
+                        "dataURL": "http://www.google.com"
+                    },
+                    {
+                        "itemId": "1D522E57F6DA73F96B19A4D",
+                        "itemType": "BT_sendEmail",
+                        "itemNickname": "AdairEmail",
+                        "emailToAddress": "radair@sandi.net",
+                        "emailSubject": "Question"
+                    },
+                    {
+                        "itemId": "9CE0ED90664462BB3801235",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "calendarURL",
+                        "navBarTitleText": "Calendar",
+                        "dataURL": "http://mrbrzenskimath.com/CPMA/cpmanews.html",
+                        "forceRefresh": "1"
+                    },
+                    {
+                        "itemId": "19E2E48D161456DE3F5D814",
+                        "itemType": "BT_screen_customURL",
+                        "itemNickname": "DistrictURL",
+                        "navBarTitleText": "District News",
+                        "navBarStyle": "hidden",
+                        "dataURL": "http://mrbrzenskimath.com/CPMA/districtnews.html",
+                        "forceRefresh": "1"
+                    }
+                ]
+            }
+        ]
+    }
+}

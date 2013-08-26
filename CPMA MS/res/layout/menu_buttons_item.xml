@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/containerView"
+	android:background="@android:color/transparent"    
+	android:padding="0dip"
+	android:layout_margin="0dip"
+  	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+
+   	<!-- button background color -->	
+	<LinearLayout android:id="@+id/backgroundColorView"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+ 		android:layout_centerInParent="true">
+ 	</LinearLayout>	
+   		
+   	<!-- button background image -->	
+	<ImageView android:id="@+id/backgroundImageView"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+ 		android:layout_centerInParent="true">
+ 	</ImageView>	  
+	  
+   	<!-- button icon -->	
+	<ImageView android:id="@+id/iconView"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+ 		android:layout_centerInParent="true">
+ 	</ImageView>
+ 	
+    <!-- text view for label -->	
+	<TextView android:id="@+id/titleView"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_below="@+id/backgroundImageView">
+ 	</TextView>	
+  
+  
+</RelativeLayout>
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/containerView"
+   		android:background="@android:color/transparent"    
+   		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+
+		<LinearLayout android:id="@+id/subContainer"
+    		android:layout_height="fill_parent" 
+    		android:layout_width="fill_parent"
+    		android:layout_marginTop="10dip"
+    		android:layout_marginRight="10dip"
+		  	android:layout_marginLeft="10dip"
+		  	android:gravity="center_horizontal"
+		  	android:orientation="vertical">
+
+		    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:id="@+id/logInIdLabel" 
+		        android:layout_width="300dip" 
+		        android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+	    		android:gravity="center_vertical"
+				android:singleLine="true"
+		        android:text="">
+		    </TextView>
+		
+		    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:id="@+id/logInIdText" 
+		        android:layout_width="300dip" 
+		        android:layout_height="wrap_content" 
+				android:layout_marginTop="5dip"
+				android:singleLine="true"
+	 			android:hint="">
+		    </EditText>
+		  
+		    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:id="@+id/logInPasswordLabel" 
+		        android:layout_width="300dip" 
+		        android:layout_height="wrap_content" 
+				android:layout_marginTop="5dip"
+				android:singleLine="true"
+		        android:hint="">
+		    </TextView>
+		
+		    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:id="@+id/logInPasswordText" 
+		        android:layout_width="300dip" 
+		        android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+		        android:password="true"
+				android:singleLine="true"
+		        android:hint="">
+		    </EditText>
+	
+		    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+		    	android:id="@+id/submitButton" 
+		        android:layout_width="300dip" 
+		        android:layout_height="wrap_content" 
+				android:layout_marginTop="10dip"
+		        android:text="">
+		    </Button>
+	  		
+	  		
+	  		<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+	  			android:id="@+id/iconStatusView"
+		        android:layout_width="300dip" 
+	   			android:layout_height="wrap_content"
+				android:scaleType="center"
+				android:layout_marginTop="10dip">
+	   		</ImageView>
+	   		
+	   	</LinearLayout>
+	 	
+ 
+ </RelativeLayout>

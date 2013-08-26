@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/containerView"
+  		android:background="@android:color/transparent"    
+ 		android:padding="0dip"
+  		android:layout_margin="0dip"
+   		android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/headerImageContainer"
+  			android:background="@android:color/transparent"    
+ 			android:padding="0dip"
+  			android:layout_margin="0dip"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentTop="true"
+			android:layout_width="fill_parent" 
+  			android:layout_height="wrap_content">
+	  		
+	  		<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+	  			android:id="@+id/headerImageView"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content"
+				android:scaleType="center"
+    			android:layout_centerHorizontal="true"
+				android:layout_alignParentTop="true">
+    		</ImageView>
+    		
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/listViewContainer"
+  			android:background="@android:color/transparent"    
+ 			android:padding="0dip"
+  			android:layout_margin="0dip"
+			android:layout_weight="1"
+   			android:layout_width="fill_parent" 
+  			android:layout_height="wrap_content"
+  			android:layout_below="@+id/headerImageContainer">
+		
+			<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/listView"
+			    android:background="@android:color/transparent"    
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+			  	android:cacheColorHint="#000000"
+			    android:choiceMode="singleChoice" 
+			    android:layout_weight="1"
+			    android:scrollbars="none">
+			</ListView>
+			
+		</LinearLayout>
+ 
+ </RelativeLayout>

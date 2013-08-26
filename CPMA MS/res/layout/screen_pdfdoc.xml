@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/containerView"
+		android:orientation="vertical"
+   		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:layout_centerHorizontal="true">
+
+		<Button xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/openWithButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dip"
+			android:text="@string/openWith"
+			android:layout_marginTop="20dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_centerHorizontal="true" 
+			android:layout_alignParentTop="true">
+		</Button>
+	
+		<Button xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/downloadButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dip"
+			android:text="@string/download"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_centerHorizontal="true" 
+			android:layout_below="@id/openWithButton">
+		</Button>
+
+		<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+	  		android:id="@+id/documentTypeIcon"
+	    	android:layout_height="125dip"
+		   	android:layout_width="125dip"
+		   	android:maxHeight="125dip"
+		   	android:maxWidth="125dip"
+		   	android:scaleType="fitCenter"
+			android:layout_marginTop="150dip"
+			android:layout_centerHorizontal="true">
+	    </ImageView>
+	 
+ </RelativeLayout>

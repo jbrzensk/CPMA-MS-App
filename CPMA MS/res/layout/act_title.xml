@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/titleContainer"
+  	android:orientation="horizontal"
+  	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+	android:background="@android:color/black"   
+    android:gravity="center_vertical"   
+   	android:padding="0dip"
+    android:layout_margin="0dip">
+
+		<RelativeLayout
+		  	xmlns:android="http://schemas.android.com/apk/res/android"
+		  	android:id="@+id/titleParts"
+  			android:orientation="horizontal"
+		  	android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content"
+		    android:gravity="center_vertical"   
+		   	android:padding="5dip"
+		    android:layout_margin="0dip">
+		    
+		  	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		  		android:id="@+id/titleView"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		        android:gravity="left"   
+		        android:layout_centerVertical="true"
+				android:layout_centerInParent="true"
+		        android:paddingTop="2dip"
+		        android:paddingBottom="2dip"
+		    	android:singleLine="true"
+		    	android:text=""
+		    	android:layout_marginRight="40dip"
+		    	android:textColor="#FFFFFF"
+		    	android:textSize="22dip"
+				android:layout_alignParentLeft="true"
+		    	android:ellipsize="end">
+			</TextView>
+			
+		  	<Button xmlns:android="http://schemas.android.com/apk/res/android"
+		  		android:id="@+id/rightButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16dip"
+		        android:gravity="right" 
+		    	android:layout_alignParentRight="true">
+		    </Button>
+			 	 
+		  	<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+		  		android:id="@+id/rightImage"
+		    	android:layout_width="30dip"
+		    	android:layout_height="30dip"
+		    	android:maxHeight="30dip"
+		    	android:maxWidth="30dip"
+		    	android:scaleType="fitCenter"
+		        android:gravity="right"   
+    			android:layout_centerVertical="true"
+    			android:layout_alignParentRight="true"
+		    	android:layout_marginRight="3dip">
+		    </ImageView>			 	 
+			 	 
+			 	 
+			 	 
+		</RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

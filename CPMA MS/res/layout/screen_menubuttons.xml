@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/containerView"
+	android:background="@android:color/transparent"    
+	android:padding="0dip"
+	android:layout_margin="0dip"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+ 		<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ 			android:id="@+id/verticalScrollView" 
+ 			android:layout_width="fill_parent" 
+ 			android:layout_height="fill_parent">
+ 
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/tableLayout" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent">
+ 			</TableLayout>
+ 			
+ 		</ScrollView>
+ 		
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/containerViewHorizontal"
+				android:background="@android:color/transparent"    
+				android:padding="0dip"
+				android:layout_margin="0dip"
+		 		android:orientation="horizontal"
+ 				android:layout_width="fill_parent"
+ 				android:layout_height="fill_parent"> 		
+ 		
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:id="@+id/containerViewHorizontalBottom"
+						android:background="@android:color/transparent"    
+						android:padding="0dip"
+						android:layout_margin="0dip"
+		 				android:orientation="vertical"
+		 				android:layout_width="wrap_content"
+		 				android:layout_height="wrap_content">
+ 		
+		 			<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+						android:id="@+id/horizontalScrollView" 
+						android:layout_width="fill_parent" 
+						android:layout_height="wrap_content">
+			
+						<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+							android:id="@+id/containerHorizontalButtons"
+							android:background="@android:color/transparent"    
+							android:padding="0dip"
+							android:layout_margin="0dip"
+		 					android:orientation="horizontal"
+		 					android:layout_width="wrap_content"
+		 					android:layout_height="wrap_content">
+						</LinearLayout>
+		
+					</HorizontalScrollView> 
+			
+				</LinearLayout>
+		
+		</RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+

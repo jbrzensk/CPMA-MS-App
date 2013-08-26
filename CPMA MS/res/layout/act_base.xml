@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/containerView"
+    		android:background="@android:color/transparent"    
+   			android:padding="0dip"
+    		android:layout_margin="0dip"
+     		android:layout_width="fill_parent" 
+     		android:layout_height="fill_parent">
+
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/backgroundSolidColorView"
+    		android:background="@android:color/transparent"    
+   			android:padding="0dip"
+    		android:layout_margin="0dip"
+     		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent">
+		</RelativeLayout>
+
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/backgroundGradientColorView"
+    		android:background="@android:color/transparent"    
+   			android:padding="0dip"
+    		android:layout_margin="0dip"
+     		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent">
+		</RelativeLayout>
+
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/backgroundImageBox"
+    		android:background="@android:color/transparent"    
+   			android:padding="0dip"
+    		android:layout_margin="0dip"
+     		android:layout_width="fill_parent" 
+     		android:layout_height="fill_parent">
+			
+			<ImageView 
+   				android:id="@+id/backgroundImageView"
+   				android:layout_width="fill_parent"
+   				android:layout_height="fill_parent">
+   			</ImageView>
+   			
+		</RelativeLayout>
+
+		<!-- baseView is filled dynamically by each Activity .java class -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    		android:id="@+id/baseView"
+		    		android:layout_width="fill_parent" 
+		    		android:layout_height="fill_parent"
+		    		android:orientation="vertical">
+		</LinearLayout>
+
+
+</FrameLayout>
+
+
+
+
